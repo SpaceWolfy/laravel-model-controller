@@ -72,10 +72,12 @@
   color: white;
 }
 
-.navigation-bar ul li i {
+.navigation-bar ul .active {
+  border-bottom: 4px solid #8aca2b;
+}
+
+.navigation-bar ul .active a {
   color: #8aca2b;
-  font-size: 13px;
-  padding-left: 8px;
 }
 
 .navigation-bar .search-bar {

@@ -1,6 +1,6 @@
 <nav class="navigation-bar">
   <ul>
-    <li><a href="">MOVIES</a></li>
+    <li class="nav-link {{ Request::route()->getName() === 'home' ? 'active' : '' }}"><a href="{{ url('/') }}">MOVIES</a></li>
     <li><a href="">TV</a></li>
     <li><a href="">VIDEOS</a></li>
   </ul>

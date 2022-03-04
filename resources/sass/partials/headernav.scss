@@ -25,10 +25,13 @@
                 text-decoration: none;
                 color: white;
             }
-            i {
+        }
+
+        .active {
+            border-bottom: 4px solid rgb(138, 202, 43);
+
+            a {
                 color: rgb(138, 202, 43);
-                font-size: 13px;
-                padding-left: 8px;
             }
         }
     }
