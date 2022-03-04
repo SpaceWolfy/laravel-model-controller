@@ -1,1 +1,51 @@
+.card-box {
+    width: 1250px;
+    padding: 110px 65px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 
+    .card {
+        height: 300px;
+        width: 200px;
+        background-color: rgb(138, 202, 43);
+        margin: 20px 40px;
+        border: 2px solid rgb(138, 202, 43);
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .info {
+            display: none;
+            color: white;
+            padding: 10px 15px;
+
+            .row {
+                margin-bottom: 20px;
+                span {
+                    color: rgb(138, 202, 43);
+                    font-weight: 600;
+                    padding-right: 5px;
+                }
+            }
+        }
+
+        &:hover {
+            overflow: auto;
+            background-image: url("/img/hover-bg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+        }
+
+        &:hover img {
+            display: none;
+        }
+
+        &:hover .info {
+            display: block;
+        }
+    }
+}

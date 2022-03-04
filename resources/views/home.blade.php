@@ -6,4 +6,5 @@
 
 
 @section('content')
+@include('partials.card')
 @endsection
